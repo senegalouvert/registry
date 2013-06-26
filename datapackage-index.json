@@ -1,64 +1,60 @@
 {
-     "r-partition-de-la-population-selon-le-sexe-de-1970-2005":
+  "Repartition-Population-1970-2005": {
+    "description": "## R\u00e9partition de la population selon le sexe de 1970 \u00e0 2005", 
+    "licenses": [
       {
-        "author": "", 
-        "author_email": "", 
-        "ckan_url": "http://thedatahub.org/dataset/r-partition-de-la-population-selon-le-sexe-de-1970-2005", 
-        "description": "REPARTITION DE LA POPULATION\r\nSELON LE SEXE DE 1970 \u00e0 2005\r\n\r\nSources : DPS/MEF\r\n1- De 1970-1975 : Population de 1976 r\u00e9tro projet\u00e9e avec un taux de 2,5 % par an hypoth\u00e8se d\u00e9duite des\r\nprojections de la DPS (Situation \u00c9conomique 1959-79)\r\n2- De 1977-1987 : Population de 1976 projet\u00e9e avec un taux de 2,6 %\r\n3- De 1989-2000 : Population estim\u00e9 par les projections de la Direction de la Pr\u00e9vision et de la Statistique\r\n4- De 1999 \u00e0 2001 : Nouvelles projections division des enqu\u00eates d\u00e9mographiques de la DPS", 
-        "download_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-06-23T230035/Repartition_population_selon_sexe_1970_2005.csv", 
-        "extras": {}, 
-        "groups": [
-            "country-sn"
-        ], 
-        "id": "r-partition-de-la-population-selon-le-sexe-de-1970-2005", 
-        "isopen": true, 
-        "license": "Other (Public Domain)", 
-        "license_id": "other-pd", 
-        "license_title": "Other (Public Domain)", 
-        "maintainer": "", 
-        "maintainer_email": "", 
-        "metadata_created": "2013-04-03T21:04:36.092475", 
-        "metadata_modified": "2013-06-24T12:58:13.616883", 
-        "name": "r-partition-de-la-population-selon-le-sexe-de-1970-2005", 
-        "notes": "REPARTITION DE LA POPULATION\r\nSELON LE SEXE DE 1970 \u00e0 2005\r\n\r\nSources : DPS/MEF\r\n1- De 1970-1975 : Population de 1976 r\u00e9tro projet\u00e9e avec un taux de 2,5 % par an hypoth\u00e8se d\u00e9duite des\r\nprojections de la DPS (Situation \u00c9conomique 1959-79)\r\n2- De 1977-1987 : Population de 1976 projet\u00e9e avec un taux de 2,6 %\r\n3- De 1989-2000 : Population estim\u00e9 par les projections de la Direction de la Pr\u00e9vision et de la Statistique\r\n4- De 1999 \u00e0 2001 : Nouvelles projections division des enqu\u00eates d\u00e9mographiques de la DPS", 
-        "notes_rendered": "<p>REPARTITION DE LA POPULATION\n   SELON LE SEXE DE 1970 \u00e0 2005\n</p>\n<p>Sources : DPS/MEF\n   1- De 1970-1975 : Population de 1976 r\u00e9tro projet\u00e9e avec un taux de 2,5 % par an hypoth\u00e8se d\u00e9duite des\n   projections de la DPS (Situation \u00c9conomique 1959-79)\n   2- De 1977-1987 : Population de 1976 projet\u00e9e avec un taux de 2,6 %\n   3- De 1989-2000 : Population estim\u00e9 par les projections de la Direction de la Pr\u00e9vision et de la Statistique\n   4- De 1999 \u00e0 2001 : Nouvelles projections division des enqu\u00eates d\u00e9mographiques de la DPS\n</p>", 
-        "ratings_average": null, 
-        "ratings_count": 0, 
-        "relationships": [], 
-        "resources": [
-            {
-                "schema": {
+        "id": "odc-pddl", 
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ], 
+    "name": "Repartition-Population-1970-2005", 
+    "readme": "## R\u00e9partition de la population selon le sexe de 1970 \u00e0 2005\n\nUne \u00e9tude publi\u00e9e par l'ANSD", 
+    "resources": [
+      {
+        "path": "Repartition_population_selon_sexe_1970_2005.csv", 
+        "schema": {
           "fields": [
             {
               "format": "yyyy", 
-              "id": "Annees", 
+              "id": "Ann\u00e9es", 
               "type": "date"
             }, 
             {
-           
-              "format": "percentage", 
+              "description": "Total population", 
+              "id": "Population totale", 
+              "type": "number"
+            }, 
+            {
               "id": "Hommes", 
+              "type": "number"
+            }, 
+            {
+              "id": "Femmes", 
               "type": "number"
             }
           ]
-        },
-                "url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-06-23T230035/Repartition_population_selon_sexe_1970_2005.csv", 
-                "webstore_last_updated": "2013-06-23T18:01:23.165047", 
-                "webstore_url": "active"
-            }
-          ]
-      ,
-  "views": [
+        }, 
+        "url": "https://raw.github.com/senegalouvert/data/master/Repartition-Population-1970-2005/Repartition_population_selon_sexe_1970_2005.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": "ANSD", 
+        "web": "http://www.ansd.sn/publications/annuelles/population-du-Senegal/population_Senegal_1970_2005.pdf"
+      }
+    ], 
+    "title": "R\u00e9partition de la population selon le sexe de 1970 \u00e0 2005", 
+    "views": [
       {
         "id": "graph", 
         "state": {
-          "group": "Annees", 
+          "group": "Ann\u00e9es", 
           "series": [
-            "Hommes"
+            "Population totale"
           ]
         }, 
         "type": "Graph"
       }
     ]
- }
+  }
 }

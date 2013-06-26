@@ -78,7 +78,7 @@ def build_index(dataset_list_url, outpath='datapackage-index.json'):
 
 def _to_dp_url(nameOrUrl):
     if '/' not in nameOrUrl:
-        url = 'https://raw.github.com/datasets/' + nameOrUrl + '/master/'
+        url = 'https://raw.github.com/senegalouvert/data/master/' + nameOrUrl + '/'
     else:
         url = nameOrUrl
 
