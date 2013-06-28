@@ -1,4 +1,169 @@
 {
+  "Indice_National_Prix_Consommation": {
+    "description": "L\u2019Agence Nationale de la Statistique et de la D\u00e9mographie (ANSD) publie depuis janvier 2010, la note mensuelle de l\u2019Indice National des Prix \u00e0 la Consommation (INPC). Cet indice base 100 en 2008,mesure l\u2019\u00e9volution des prix au plan national.", 
+    "licenses": [
+      {
+        "id": "odc-pddl", 
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ], 
+    "name": "Indice_National_Prix_Consommation", 
+    "readme": "L\u2019Agence Nationale de la Statistique et de la D\u00e9mographie (ANSD) publie depuis janvier 2010, la note mensuelle de l\u2019Indice National des Prix \u00e0 la Consommation (INPC). Cet indice base 100 en 2008, \nmesure l\u2019\u00e9volution des prix au plan national.\n\n## INDICE NATIONAL DES PRIX \u00c0 LA CONSOMMATION (I.N.P.C.)\n\nLes indices sont de type Laspeyres et les pond\u00e9rations sont issues des d\u00e9penses de consommation des m\u00e9nages tir\u00e9es de l\u2019Enqu\u00eate de Suivi de la Pauvret\u00e9 au S\u00e9n\u00e9gal de 2005 (ESPS). Le champ couvert par l\u2019indice national des prix \u00e0 la consommation est l\u2019ensemble du pays d\u00e9coup\u00e9 en zones \u00e9cologiques/\u00e9conomiques, \u00e0 savoir le Sud, le Nord, le Centre Nord, l\u2019Ouest et le Centre Sud. Ces cinq zones sont repr\u00e9sent\u00e9es respectivement par : \n\nKolda\nSaint Louis\nDiourbel\nDakar\nKaolack.\n\nLa collecte des prix se fait dans les capitales de ces r\u00e9gions. L\u2019INPC est publi\u00e9 selon la classification des fonctions de consommation des m\u00e9nages \u00e0 12 fonctions (COICOP 1).\n\nAu total, la m\u00e9thodologie est conforme \u00e0 celle appliqu\u00e9e pour le calcul du nouvel Indice Harmonis\u00e9 des Prix \u00e0 la Consommation (IHPC base 100 en 2008) dont la couverture est limit\u00e9e \u00e0 l\u2019agglom\u00e9ration de Dakar.\n\nP\u00e9riodicit\u00e9\t: Mensuelle\nP\u00e9riode couverte : Du 1er \u00e0 la fin du mois D\u00e9lais de publication\tUne note flash est publi\u00e9e au plus tard le 30 jours apr\u00e9s mois sous revue. Elle est suivie d'une analyse d\u00e9taill\u00e9e 15 jours apr\u00e9s\nTh\u00e8me : Donn\u00e9es \u00e9conomiques\n\n## License\nLicence ODbL (Open Database Licence)", 
+    "resources": [
+      {
+        "path": "indice_national_prix_consommation.csv", 
+        "schema": {
+          "fields": [
+            {
+              "format": "yyyy", 
+              "id": "Ann\u00e9es", 
+              "type": "date"
+            }, 
+            {
+              "description": "Poids 10000", 
+              "id": "INDICE GLOBAL", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 5360", 
+              "id": "ALIMENTATION ET BOISSON NON ALCOOLIS\u00c9ES", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 1006", 
+              "id": "C\u00e9r\u00e9ales non transform\u00e9es", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 395", 
+              "id": "Pains", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 327", 
+              "id": "B\u0153uf", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 322", 
+              "id": "Poissons frais", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 208", 
+              "id": "Lait", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 496", 
+              "id": "Huiles", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 43", 
+              "id": "Autres fruits frais", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 255", 
+              "id": "L\u00e9gumes frais en fruits ou racine", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 109", 
+              "id": "L\u00e9gumes frais en feuilles", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 346", 
+              "id": "Sucre", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 338", 
+              "id": "Sel. \u00e9pices. sauces et produits alimentaires nda", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 73", 
+              "id": "BOISSONS ALCOOLIS\u00c9ES. TABAC ET STUP\u00c9FIANT", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 647", 
+              "id": "ARTICLES D'HABILLEMENT ET CHAUSSURES", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 1835", 
+              "id": "LOGEMENT. EAU. \u00c9LECTRICIT\u00c9. GAZ ETAUTRES COMBUSTIBLES", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 513", 
+              "id": "MEUBLES. ARTICLES DE M\u00c9NAGES ET ENTRETIEN COURANT DU FOYER", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 190", 
+              "id": "SANTE", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 581", 
+              "id": "TRANSPORTS", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 176", 
+              "id": "COMMUNICATIONS", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 132", 
+              "id": "LOISIRS ET CULTURES", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 109", 
+              "id": "ENSEIGNEMENTS", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 121", 
+              "id": "RESTAURANTS ET H\u00d4TELS", 
+              "type": "number"
+            }, 
+            {
+              "description": "Poids 263", 
+              "id": "BIENS ET SERVICES DIVERS", 
+              "type": "number"
+            }
+          ]
+        }, 
+        "url": "https://raw.github.com/senegalouvert/data/master/Indice_National_Prix_Consommation/indice_national_prix_consommation.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": "ANSD", 
+        "web": "http://www.ansd.sn/INPC_mensuel.html"
+      }
+    ], 
+    "title": "INDICE NATIONAL DES PRIX \u00c0 LA CONSOMMATION (I.N.P.C.)", 
+    "views": [
+      {
+        "id": "graph", 
+        "state": {
+          "group": "Ann\u00e9es", 
+          "series": [
+            "INDICE GLOBAL"
+          ]
+        }, 
+        "type": "Graph"
+      }
+    ]
+  }, 
   "Repartition-Population-1970-2005": {
     "description": "R\u00e9partition de la population du S\u00e9n\u00e9gal selon le sexe de 1970 \u00e0 2005 source : DPS/MEF", 
     "licenses": [
