@@ -164,6 +164,185 @@
       }
     ]
   }, 
+  "Observatoires-Internet": {
+    "description": "Rapport d\u2019analyse du march\u00e9 de l\u2019internet de l\u2019autorit\u00e9 de r\u00e9gulation des t\u00e9l\u00e9communications et des postes (ARTP).", 
+    "licenses": [
+      {
+        "id": "odc-pddl", 
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ], 
+    "name": "Observatoires-Internet", 
+    "readme": "Rapport d\u2019analyse du march\u00e9 de l\u2019internet de l\u2019autorit\u00e9 de r\u00e9gulation des t\u00e9l\u00e9communications et des postes (ARTP).\n\n## Observatoire du march\u00e9 de l\u2019internet \n\nUne \u00e9tude publi\u00e9e par l'ARTP\n\n## License\nLicence ODbL (Open Database Licence)", 
+    "resources": [
+      {
+        "path": "Internet.csv", 
+        "schema": {
+          "fields": [
+            {
+              "format": "yyyy", 
+              "id": "Ann\u00e9es", 
+              "type": "date"
+            }, 
+            {
+              "description": "Total Parc internet", 
+              "id": "Parc total", 
+              "type": "number"
+            }, 
+            {
+              "id": "Croissance nette trimestrielle", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Croissance en %", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Taux de p\u00e9n\u00e9tration", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nombre d\u2019abonn\u00e9s Internet & Bas D\u00e9bit", 
+              "id": "RTC", 
+              "type": "number"
+            }, 
+            {
+              "id": "RTC Croissance nette trimestrielle", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "RTC Croissance en %", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "RTC en % du parc", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nombre d\u2019abonn\u00e9s ADSL", 
+              "id": "ADSL", 
+              "type": "number"
+            }, 
+            {
+              "id": "ADSL Croissance nette trimestrielle", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "ADSL Croissance en %", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "ADSL en % du parc total", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nombre de liaisons lou\u00e9es Internet", 
+              "id": "LL", 
+              "type": "number"
+            }, 
+            {
+              "id": "LL Croissance nette trimestrielle", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "LL Croissance en %", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nombre d\u2019abonn\u00e9s Internet 3G", 
+              "id": "3G", 
+              "type": "number"
+            }, 
+            {
+              "id": "3G Croissance nette trimestrielle", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "3G Croissance en %", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "3G En % du parc", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Sonatel", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Expresso", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Sonatel bas d\u00e9bit", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Expresso bas d\u00e9bit", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Sonatel ADSL", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Expresso ADSL", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Sonatel 3G", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "Expresso 3G", 
+              "type": "number"
+            }
+          ]
+        }, 
+        "url": "https://raw.github.com/senegalouvert/data/master/Observatoires-Internet/Internet.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": "ARTP", 
+        "web": "http://www.artpsenegal.net/page_inter2.php?idmenu=7&id=10126&sid=10131&art=341&label=&page=Ann%E9e+2007"
+      }
+    ], 
+    "title": "Observatoires le march\u00e9 de l\u2019internet ", 
+    "views": [
+      {
+        "id": "graph", 
+        "state": {
+          "group": "Ann\u00e9es", 
+          "series": [
+            "Parc total", 
+            "RTC", 
+            "ADSL", 
+            "3G", 
+            "LL"
+          ]
+        }, 
+        "type": "Graph"
+      }
+    ]
+  }, 
   "Repartition-Population-1970-2005": {
     "description": "R\u00e9partition de la population du S\u00e9n\u00e9gal selon le sexe de 1970 \u00e0 2005 source : DPS/MEF", 
     "licenses": [
