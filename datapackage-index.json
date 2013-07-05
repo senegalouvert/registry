@@ -160,7 +160,8 @@
             "INDICE GLOBAL"
           ]
         }, 
-        "type": "Graph"
+        "type": "Graph",
+        "label": "Diagramme",
       }
     ]
   }, 
