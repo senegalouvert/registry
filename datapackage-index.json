@@ -153,7 +153,7 @@
     "title": "INDICE NATIONAL DES PRIX \u00c0 LA CONSOMMATION (I.N.P.C.)", 
     "views": [
       {
-        "id": "graph", 
+        "id": "Graph", 
         "state": {
           "group": "Ann\u00e9es", 
           "series": [
