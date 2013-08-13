@@ -1,4 +1,547 @@
 {
+  "Education": {
+    "description": "Il s\u2019agit d\u2019un tableau de bord qui, \u00e0\u201a partir d\u2019une batterie d\u2019indicateurs, effectue des mesures d\u2019ensemble pour d\u00e9terminer le niveau de d\u00e9veloppement du syst\u00e9me \u00e9ducatif.", 
+    "licenses": [
+      {
+        "id": "odc-pddl", 
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ], 
+    "name": "Education", 
+    "readme": "Il s\u2019agit d\u2019un tableau de bord qui, \u00e0\u201a partir d\u2019une batterie d\u2019indicateurs, effectue des mesures d\u2019ensemble pour d\u00e9terminer le niveau de d\u00e9veloppement du syst\u00e9me \u00e9ducatif.\n\n## Situation de l'Education\n\n\n\n## Conditions d\u2019utilisation des Ensembles de donn\u00e9es figurant dans le Catalogue de donn\u00e9es de la Banque mondiale\n\n###Description\n\nLa Banque mondiale s\u2019efforce d\u2019accro\u00eetre l\u2019acc\u00e8s aux donn\u00e9es qu\u2019elle recueille et publie ainsi que leur utilisation par le public. Les donn\u00e9es sont regroup\u00e9es dans des Ensembles de donn\u00e9es list\u00e9s dans le catalogue de donn\u00e9es de la Banque mondiale (les \u00ab Ensembles de donn\u00e9es \u00bb). Les Ensembles de donn\u00e9es sont des collections de donn\u00e9es g\u00e9r\u00e9es par la Banque mondiale et fournies sous divers formats lisibles par ordinateur. Le Groupe de la Banque mondiale vous offre gratuitement acc\u00e8s aux Ensembles de donn\u00e9es \u00e0 condition de respecter les Conditions de cet accord (les \u00ab Conditions d\u2019utilisation des Ensembles de donn\u00e9es \u00bb). L\u2019utilisation des donn\u00e9es figurant dans ces Ensembles de donn\u00e9es, qui peuvent \u00eatre pr\u00e9sent\u00e9es sous forme de tableaux ou de graphiques, est \u00e9galement assujettie aux Conditions d\u2019utilisation des Ensembles de donn\u00e9es.\n\n###Licences\n\nNous vous encourageons \u00e0 utiliser les Ensembles de donn\u00e9es afin d\u2019en tirer parti de mani\u00e8re cr\u00e9ative pour vous-m\u00eames ou pour d\u2019autres. Vous pouvez extraire, t\u00e9l\u00e9charger et effectuer des copies de l\u2019information contenue dans les Ensembles de donn\u00e9es et vous pouvez partager cette information avec de tierces parties. Vous pouvez \u00e9galement utiliser nos interfaces de programmation d'application (API) pour faciliter votre acc\u00e8s aux Ensembles de donn\u00e9es, que ce soit au moyen d\u2019un site Web distinct ou d\u2019un autre type d\u2019application logicielle. Toutefois, nous publions dans les Ensembles de donn\u00e9es une liste de certaines donn\u00e9es sp\u00e9cifiques que vous ne pouvez pas redistribuer ou r\u00e9utiliser sans avoir pr\u00e9alablement communiqu\u00e9 avec le ou les fournisseur(s) de contenu d\u2019origine. Cette liste fournit \u00e9galement les coordonn\u00e9es des fournisseurs de contenu d\u2019origine. Avant d\u2019incorporer des donn\u00e9es dans d\u2019autres produits, veuillez v\u00e9rifier la liste qui est disponible ici : Donn\u00e9es \u00e0 usage restreint (a).", 
+    "resources": [
+      {
+        "path": "Education.csv", 
+        "schema": {
+          "fields": [
+            {
+              "format": "yyyy", 
+              "id": "Ann\u00e9es", 
+              "type": "date"
+            }, 
+            {
+              "description": "(%\u00a0du PIB par habitant)", 
+              "id": "D\u00e9penses par \u00e9l\u00e8ve de l\u2019enseignement sup\u00e9rieur", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du PIB par habitant)", 
+              "format": "percentage", 
+              "id": "D\u00e9penses par \u00e9l\u00e8ve du primaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du PIB par habitant)", 
+              "format": "percentage", 
+              "id": "D\u00e9penses par \u00e9l\u00e8ve du secondaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du PIB)", 
+              "format": "percentage", 
+              "id": "D\u00e9penses publiques en \u00e9ducation", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des d\u00e9penses du gouvernement)", 
+              "format": "percentage", 
+              "id": "D\u00e9penses publiques en \u00e9ducation, total", 
+              "type": "number"
+            }, 
+            {
+              "id": "Enfants n\u2019allant pas \u00e0\u00a0l\u2019\u00e9cole primaire", 
+              "type": "number"
+            }, 
+            {
+              "id": "Enfants n\u2019allant pas \u00e0\u00a0l\u2019\u00e9cole primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "id": "Enfants n\u2019allant pas \u00e0\u00a0l\u2019\u00e9cole primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du total des enseignants)", 
+              "format": "percentage", 
+              "id": "Enseignants form\u00e9s dans l\u2019\u00e9ducation primaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des enseignantes)", 
+              "format": "percentage", 
+              "id": "Enseignants form\u00e9s dans l\u2019\u00e9ducation primaire, femmes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des enseignants)", 
+              "format": "percentage", 
+              "id": "Enseignants form\u00e9s dans l\u2019\u00e9ducation primaire, hommes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(% de femmes)", 
+              "format": "percentage", 
+              "id": "Enseignement tertiaire, nombre d\u2019enseignants", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du total d\u2019\u00e9l\u00e8ves au primaire)", 
+              "format": "percentage", 
+              "id": "Inscription \u00e0 l\u2019\u00e9cole, primaire, priv\u00e9e", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du total d\u2019\u00e9l\u00e8ves au secondaire)", 
+              "format": "percentage", 
+              "id": "Inscription \u00e0 l\u2019\u00e9cole, secondaire, priv\u00e9e", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, enseignement sup\u00e9rieur", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, enseignement sup\u00e9rieur, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, enseignement sup\u00e9rieur, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, primaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, primaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, pr\u00e9scolaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, pr\u00e9scolaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, pr\u00e9scolaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, secondaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, secondaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, secondaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, secondaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0brut)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, secondaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Inscriptions \u00e0 l\u2019\u00e9cole, secondaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de cohorte)", 
+              "format": "percentage", 
+              "id": "Poursuite des \u00e9tudes jusqu\u2019au CM2, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de cohorte)", 
+              "format": "percentage", 
+              "id": "Poursuite des \u00e9tudes jusqu\u2019au CM2, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de cohorte)", 
+              "format": "percentage", 
+              "id": "Poursuite des \u00e9tudes jusqu\u2019au CM2, total", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de cohorte)", 
+              "format": "percentage", 
+              "id": "Poursuite des \u00e9tudes jusqu\u2019\u00e0 la fin du cycle primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de cohorte)", 
+              "format": "percentage", 
+              "id": "Poursuite des \u00e9tudes jusqu\u2019\u00e0 la fin du cycle primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de cohorte)", 
+              "format": "percentage", 
+              "id": "Poursuite des \u00e9tudes jusqu\u2019\u00e0 la fin du cycle primaire, total", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des 15 \u00e0 24 ans)", 
+              "format": "percentage", 
+              "id": "Ratio de jeunes filles/gar\u00e7ons alphab\u00e9tis\u00e9s", 
+              "type": "number"
+            }, 
+            {
+              "id": "Ratio femmes/homes des inscriptions dans l\u2019enseignement sup\u00e9rieur", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%)", 
+              "format": "percentage", 
+              "id": "Ratio filles/gar\u00e7ons des inscriptions au primaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%)", 
+              "format": "percentage", 
+              "id": "Ratio filles/gar\u00e7ons des inscriptions au primaire et au secondaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%)", 
+              "format": "percentage", 
+              "id": "Ratio filles/gar\u00e7ons des inscriptions au secondaire", 
+              "type": "number"
+            }, 
+            {
+              "id": "Ratio \u00e9l\u00e8ve-enseignant au primaire", 
+              "type": "number"
+            }, 
+            {
+              "id": "Ratio \u00e9l\u00e8ve-enseignant au secondaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des inscriptions de filles)", 
+              "format": "percentage", 
+              "id": "Redoublants, primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des inscriptions de gar\u00e7ons)", 
+              "format": "percentage", 
+              "id": "Redoublants, primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des inscriptions totales)", 
+              "format": "percentage", 
+              "id": "Redoublants, primaire, total", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des inscriptions de filles)", 
+              "format": "percentage", 
+              "id": "Redoublants, secondaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des inscriptions de gar\u00e7ons)", 
+              "format": "percentage", 
+              "id": "Redoublants, secondaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des inscriptions totales)", 
+              "format": "percentage", 
+              "id": "Redoublants, secondaire, total", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du groupe d\u2019\u00e2ge pertinent)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019ach\u00e8vement de l\u2019\u00e9cole primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du groupe d\u2019\u00e2ge pertinent)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019ach\u00e8vement de l\u2019\u00e9cole primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du groupe d\u2019\u00e2ge pertinent)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019ach\u00e8vement de l\u2019\u00e9cole primaire, total", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de femmes \u00e2g\u00e9es de 15 ans et plus)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019alphab\u00e9tisation des femmes adultes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0d\u2019hommes \u00e2g\u00e9s de 15 ans et plus)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019alphab\u00e9tisation des hommes adultes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des jeunes \u00e2g\u00e9s de 15 \u00e0 24 ans)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019alphab\u00e9tisation des jeunes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de femmes \u00e2g\u00e9es de 15 \u00e0 24 ans)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019alphab\u00e9tisation des jeunes femmes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0d\u2019hommes \u00e2g\u00e9s de 15 \u00e0 24 ans)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019alphab\u00e9tisation des jeunes hommes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0des personnes \u00e2g\u00e9es de 15 ans et plus)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019alphab\u00e9tisation, total des adultes", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du groupe d\u2019\u00e2ge pertinent)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019inscription brut au CP, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du groupe d\u2019\u00e2ge pertinent)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019inscription brut au CP, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0du groupe d\u2019\u00e2ge pertinent)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019inscription brut au CP, total", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de la population officielle en \u00e2ge d\u2019aller \u00e0 l\u2019\u00e9cole)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019inscription net en CP", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de la population officielle en \u00e2ge d\u2019aller \u00e0 l\u2019\u00e9cole)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019inscription net en CP, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de la population officielle en \u00e2ge d\u2019aller \u00e0 l\u2019\u00e9cole)", 
+              "format": "percentage", 
+              "id": "Taux d\u2019inscription net en CP, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Total des inscriptions \u00e0 l\u2019\u00e9cole, primaire", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Total des inscriptions \u00e0 l\u2019\u00e9cole, primaire, filles", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0net)", 
+              "format": "percentage", 
+              "id": "Total des inscriptions \u00e0 l\u2019\u00e9cole, primaire, gar\u00e7ons", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c2ge de d\u00e9but de l\u2019\u00e9cole primaire (ann\u00e9es)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c2ge de d\u00e9but de l\u2019\u00e9cole secondaire (ann\u00e9es)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation primaire, dur\u00e9e (ann\u00e9es)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation primaire, nombre d\u2019enseignants", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de femmes)", 
+              "format": "percentage", 
+              "id": "\u00c9ducation primaire, nombre d\u2019enseignants (%\u00a0de femmes)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation primaire, nombre d\u2019\u00e9l\u00e8ves", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de filles)", 
+              "format": "percentage", 
+              "id": "\u00c9ducation primaire, nombre d\u2019\u00e9l\u00e8ves (%\u00a0de filles)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation secondaire, dur\u00e9e (ann\u00e9es)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation secondaire, enseignantes, femmes", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation secondaire, enseignants", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de femmes)", 
+              "format": "percentage", 
+              "id": "\u00c9ducation secondaire, enseignants (%\u00a0de femmes)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation secondaire, \u00e9l\u00e8ves", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de filles)", 
+              "format": "percentage", 
+              "id": "\u00c9ducation secondaire, \u00e9l\u00e8ves (%\u00a0de filles)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation secondaire, \u00e9l\u00e8ves en filiale professionnelle", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de filles)", 
+              "format": "percentage", 
+              "id": "\u00c9ducation secondaire, \u00e9l\u00e8ves en filiale professionnelle (%\u00a0de filles)", 
+              "type": "number"
+            }, 
+            {
+              "id": "\u00c9ducation secondaire, \u00e9l\u00e8ves en secteur g\u00e9n\u00e9ral", 
+              "type": "number"
+            }, 
+            {
+              "description": "(%\u00a0de filles)", 
+              "format": "percentage", 
+              "id": "\u00c9ducation secondaire, \u00e9l\u00e8ves en secteur g\u00e9n\u00e9ral", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "\u00c9volution vers l\u2019\u00e9cole secondaire (%)", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "\u00c9volution vers l\u2019\u00e9cole secondaire, filles (%)", 
+              "type": "number"
+            }, 
+            {
+              "format": "percentage", 
+              "id": "\u00c9volution vers l\u2019\u00e9cole secondaire, gar\u00e7ons (%)", 
+              "type": "number"
+            }
+          ]
+        }, 
+        "url": "https://raw.github.com/senegalouvert/data/master/Education/Education.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": "La Banque Mondiale", 
+        "web": "http://donnees.banquemondiale.org/pays/senegal"
+      }
+    ], 
+    "title": "Situation de l'Education", 
+    "views": [
+      {
+        "id": "graph", 
+        "state": {
+          "group": "Ann\u00e9es", 
+          "series": [
+            "Inscription \u00e0 l\u2019\u00e9cole, primaire, priv\u00e9e", 
+            "Inscription \u00e0 l\u2019\u00e9cole, secondaire, priv\u00e9e", 
+            "Inscriptions \u00e0 l\u2019\u00e9cole, enseignement sup\u00e9rieur"
+          ]
+        }, 
+        "type": "Graph"
+      }
+    ]
+  }, 
   "Indice_National_Prix_Consommation": {
     "description": "L\u2019Agence Nationale de la Statistique et de la D\u00e9mographie (ANSD) publie depuis janvier 2010, la note mensuelle de l\u2019Indice National des Prix \u00e0 la Consommation (INPC). Cet indice base 100 en 2008,mesure l\u2019\u00e9volution des prix au plan national.", 
     "licenses": [
