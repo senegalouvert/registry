@@ -1,4 +1,58 @@
 {
+  "Decoupage-Administratif": {
+    "description": "Le S\u00e9n\u00e9gal comprend 14 r\u00e9gions administratives, qui comprennent des d\u00e9partements et des arrondissements, des communes et des communaut\u00e9s rurales.", 
+    "licenses": [
+      {
+        "id": "odc-pddl", 
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ], 
+    "name": "Decoupage-Administratif", 
+    "readme": "Le S\u00e9n\u00e9gal comprend 14 r\u00e9gions administratives, qui comprennent des d\u00e9partements et des arrondissements, des communes et des communaut\u00e9s rurales.\n\n## D\u00e9coupage Administratif du S\u00e9n\u00e9gal\n\nD\u00e9cret n\u00b0 2008-1025 du 10 septembre 2008 fixant le ressort territorial et le Chef-lieu des r\u00e9gions, d\u00e9partements et arrondissements.\n\n## Sources : D\u00e9cret n\u00b0 2008-1025 du 10 septembre 2008\n\nLe pr\u00e9sent projet de d\u00e9cret a pour objet de fixer le ressort territorial et le Chef-lieu des r\u00e9gions, d\u00e9partements et arrondissements.\nL\u2019adoption de la loi n\u00b0 2008-14 du 18 mars 2008 modifiant la loi n\u00b0 72-02 du 1er f\u00e9vrier 1972 relative \u00e0 l\u2019organisation de l\u2019administration territoriale, notamment en ses articles premier et 2 a entra\u00een\u00e9 des changements importants au niveau de notre architecture administrative.\nEn effet, cette modification a permis la cr\u00e9ation des r\u00e9gions de Kaffrine, K\u00e9dougou et S\u00e9dhiou au sein desquelles il fallait cr\u00e9er des d\u00e9partements, communes, arrondissements et communaut\u00e9s rurales.\nC\u2019est ainsi que les d\u00e9crets n\u00b0 2008-747, 2008-748 et 2008-749 portant, respectivement, cr\u00e9ation de d\u00e9partements et d\u2019arrondissements, de communes et de communaut\u00e9s rurales ont \u00e9t\u00e9 pris.\nD\u00e8s lors, le d\u00e9cret n\u00b0 2002-166 fixant le ressort territorial et le chef-lieu des r\u00e9gions et des d\u00e9partements doit \u00eatre abrog\u00e9 et remplac\u00e9 par un autre d\u00e9cret qui prendra compte le nouveau d\u00e9coupage administratif.\nTelle est, Monsieur le Pr\u00e9sident de la R\u00e9publique, l\u2019\u00e9conomie du pr\u00e9sent projet de d\u00e9cret.\nLe Pr\u00e9sident de la R\u00e9publique :\nVu la Constitution, notamment en ses articles 43 et 76 ;\nVu la loi n\u00b0 72-02 du 1er f\u00e9vrier 1972 relative \u00e0 l\u2019organisation de l\u2019Administration territoriale, modifi\u00e9e par la loi n\u00b0 76-61 du 26 juin 1976, la loi n\u00b0 84-22 du 24 mars 1984, la loi n\u00b0 96-10- du 22 mars 1996, la loi n\u00b0 2002-02 du 15 f\u00e9vrier 2002 et la loi 2008-14 du 18 mars 2008, notamment en ses articles premier et 2 ;\nVu le d\u00e9cret n\u00b0 2007-826 du 19 juin 2007 portant nomination du Premier Ministre ;\nVu le d\u00e9cret n\u00b0 2008-747 du 10 juillet 2008 portant cr\u00e9ation de d\u00e9partements et d\u2019arrondissements ;\nVu n\u00b0 2008-748 du 10 juillet 2008 portant cr\u00e9ation de Communes dans les r\u00e9gions de Fatick, Kaffrine, Kaolack, K\u00e9dougou, Kolda, Louga, Matam, Saint-Louis, S\u00e9dhiou, Tambacounda, Thi\u00e8s et Ziguinchor ;\nVu le d\u00e9cret n\u00b0 2008-749 du 10 juillet 2008 portant cr\u00e9ation de Communaut\u00e9s rurales dans les r\u00e9gions de Kaffrine, Kaolack, K\u00e9dougou, Kolda, Louga, Matam, Saint-Louis, S\u00e9dhiou, Tambacounda et Ziguinchor ;\nVu le d\u00e9cret n\u00b0 2008-1018 du 27 ao\u00fbt 2008 mettant fin aux fonctions d\u2019un Ministre et fixant la composition du Gouvernement ;\nVu le d\u00e9cret n\u00b0 2008-1026 du 10 septembre 2008 portant r\u00e9partition des Services de l\u2019Etat et du contr\u00f4le des Etablissements publics, des Soci\u00e9t\u00e9s nationales et des Soci\u00e9t\u00e9s \u00e0 participation publique entre la Pr\u00e9sidence de la R\u00e9publique, la Primature et les minist\u00e8re ;\nSur le rapport du Ministre d\u2019Etat, Ministre de l\u2019Int\u00e9rieur.\n\n## License\nLicence ODbL (Open Database Licence)\n", 
+    "resources": [
+      {
+        "path": "decoupage-administratif.csv", 
+        "schema": {
+          "fields": [
+            {
+              "id": "REGION", 
+              "type": "string"
+            }, 
+            {
+              "id": "DEPARTEMENTS", 
+              "type": "string"
+            }, 
+            {
+              "id": "COMMUNES", 
+              "type": "string"
+            }, 
+            {
+              "id": "ARRONDISSEMENTS", 
+              "type": "string"
+            }, 
+            {
+              "description": "Les villes d'une certaine taille sont subdivis\u00e9es en communes d'arrondissement", 
+              "id": "C0MMUNES d\u2019ARRDT", 
+              "type": "string"
+            }, 
+            {
+              "description": "Les autres localit\u00e9s sont des villages regroup\u00e9s en communaut\u00e9s rurales", 
+              "id": "COMM. RURALES", 
+              "type": "string"
+            }
+          ]
+        }, 
+        "url": "https://raw.github.com/senegalouvert/data/master/Decoupage-Administratif/decoupage-administratif.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": "D\u00e9cret n\u00b0 2008-1025", 
+        "web": "http://www.jo.gouv.sn/spip.php?article7213"
+      }
+    ], 
+    "title": "D\u00e9coupage administratif du S\u00e9n\u00e9gal"
+  }, 
   "Education": {
     "description": "Il s\u2019agit d\u2019un tableau de bord qui \u00e0 partir d\u2019une batterie d\u2019indicateurs, effectue des mesures d\u2019ensemble pour d\u00e9terminer le niveau de d\u00e9veloppement du syst\u00e9me \u00e9ducatif.", 
     "licenses": [
