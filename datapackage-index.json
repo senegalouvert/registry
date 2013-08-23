@@ -15,6 +15,11 @@
         "schema": {
           "fields": [
             {
+              "description": "ISO 3166-2:SN est l'entr\u00e9e pour le S\u00e9n\u00e9gal dans la norme ISO 3166-2", 
+              "id": "CODE REGION", 
+              "type": "string"
+            }, 
+            {
               "id": "REGION", 
               "type": "string"
             }, 
